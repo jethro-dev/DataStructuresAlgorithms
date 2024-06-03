@@ -19,7 +19,7 @@ This project includes custom implementations of key data structures such as list
 ## Project Structure
 
 ```
-your-project-root/
+DataStructuresAlgorithms/
 │
 ├── src/
 │   ├── main/
