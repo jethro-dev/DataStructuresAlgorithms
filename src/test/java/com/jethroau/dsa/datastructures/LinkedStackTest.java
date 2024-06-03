@@ -1,5 +1,6 @@
 package com.jethroau.dsa.datastructures;
 
+import com.jethroau.dsa.datastructures.stacks.LinkedStack;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

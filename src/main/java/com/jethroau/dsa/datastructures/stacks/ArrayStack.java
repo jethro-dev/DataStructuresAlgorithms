@@ -1,4 +1,6 @@
-package com.jethroau.dsa.datastructures;
+package com.jethroau.dsa.datastructures.stacks;
+
+import com.jethroau.dsa.datastructures.Stack;
 
 import java.util.Arrays;
 

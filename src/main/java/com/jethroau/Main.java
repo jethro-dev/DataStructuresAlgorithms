@@ -1,6 +1,6 @@
 package com.jethroau;
 
-import com.jethroau.dsa.datastructures.DoublyLinkedList;
+import com.jethroau.dsa.datastructures.list.DoublyLinkedList;
 import com.jethroau.dsa.datastructures.List;
 
 public class Main {

@@ -1,8 +1,10 @@
-package com.jethroau.dsa.datastructures;
+package com.jethroau.dsa.datastructures.list;
+
+import com.jethroau.dsa.datastructures.List;
 
 import java.util.Arrays;
 
-public class ArrayList<T>  implements List<T>{
+public class ArrayList<T>  implements List<T> {
     private static final int DEFAULT_CAPACITY = 10;
     private Object[] elements;
     private int size;

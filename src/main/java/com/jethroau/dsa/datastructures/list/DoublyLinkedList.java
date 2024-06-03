@@ -1,6 +1,7 @@
-package com.jethroau.dsa.datastructures;
+package com.jethroau.dsa.datastructures.list;
 
 
+import com.jethroau.dsa.datastructures.List;
 
 public class DoublyLinkedList<T> implements List<T> {
 

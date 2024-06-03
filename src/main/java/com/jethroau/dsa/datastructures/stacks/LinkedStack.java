@@ -1,4 +1,6 @@
-package com.jethroau.dsa.datastructures;
+package com.jethroau.dsa.datastructures.stacks;
+
+import com.jethroau.dsa.datastructures.Stack;
 
 public class LinkedStack<T> implements Stack<T> {
     private Node<T> top;

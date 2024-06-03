@@ -1,6 +1,8 @@
 package com.jethroau.dsa.datastructures;
 
 import static org.junit.jupiter.api.Assertions.*;
+
+import com.jethroau.dsa.datastructures.list.DoublyLinkedList;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
