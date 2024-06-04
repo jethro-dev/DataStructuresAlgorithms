@@ -31,52 +31,65 @@ DataStructuresAlgorithms/
 │   │   │   ├── com/
 │   │   │   │   ├── jethroau/
 │   │   │   │   │   ├── dsa/
-│   │   │   │   │   │   ├── collections/         // Collection interfaces
-│   │   │   │   │   │   │   ├── Collection.java
-│   │   │   │   │   │   │   ├── List.java
-│   │   │   │   │   │   │   ├── Queue.java
-│   │   │   │   │   │   │   ├── Set.java
-│   │   │   │   │   │   │   ├── Deque.java
-│   │   │   │   │   │   │   ├── SortedSet.java
-│   │   │   │   │   │   │   ├── NavigableSet.java
-│   │   │   │   │   │   │   ├── SortedMap.java
-│   │   │   │   │   │   │   ├── NavigableMap.java
-│   │   │   │   │   │   │   └── Iterator.java
-│   │   │   │   │   │   │   └── Iterable.java
-│   │   │   │   │   │   │   └── Tree.java
-│   │   │   │   │   │   │   └── Comparable.java
-│   │   │   │   │   │   ├── lists/               // List implementations
-│   │   │   │   │   │   │   ├── ArrayList.java
-│   │   │   │   │   │   │   └── LinkedList.java
-│   │   │   │   │   │   ├── queues/              // Queue implementations
-│   │   │   │   │   │   │   └── LinkedQueue.java
-│   │   │   │   │   │   ├── stacks/              // Stack implementations
-│   │   │   │   │   │   │   └── LinkedStack.java
-│   │   │   │   │   │   ├── trees/               // Tree implementations
-│   │   │   │   │   │   │   ├── BinaryTree.java
-│   │   │   │   │   │   │   └── BinarySearchTree.java
-│   │   │   │   │   │   └── util/                // Utility classes (if any)
-│   │   ├── resources/                          // Resources such as configuration files
+│   │   │   │   │   │   ├── datastructures/      // Data structure implementations
+│   │   │   │   │   │   │   ├── collections/     // Collection interfaces
+│   │   │   │   │   │   │   │   ├── Collection.java
+│   │   │   │   │   │   │   │   ├── List.java
+│   │   │   │   │   │   │   │   ├── Queue.java
+│   │   │   │   │   │   │   │   ├── Set.java
+│   │   │   │   │   │   │   │   ├── Deque.java
+│   │   │   │   │   │   │   │   ├── SortedSet.java
+│   │   │   │   │   │   │   │   ├── NavigableSet.java
+│   │   │   │   │   │   │   │   ├── SortedMap.java
+│   │   │   │   │   │   │   │   ├── NavigableMap.java
+│   │   │   │   │   │   │   │   ├── Iterator.java
+│   │   │   │   │   │   │   │   ├── Iterable.java
+│   │   │   │   │   │   │   │   ├── Tree.java
+│   │   │   │   │   │   │   │   └── Comparable.java
+│   │   │   │   │   │   │   ├── lists/           // List implementations
+│   │   │   │   │   │   │   │   ├── ArrayList.java
+│   │   │   │   │   │   │   │   └── LinkedList.java
+│   │   │   │   │   │   │   ├── queues/          // Queue implementations
+│   │   │   │   │   │   │   │   └── LinkedQueue.java
+│   │   │   │   │   │   │   ├── stacks/          // Stack implementations
+│   │   │   │   │   │   │   │   └── LinkedStack.java
+│   │   │   │   │   │   │   ├── trees/           // Tree implementations
+│   │   │   │   │   │   │   │   ├── BinaryTree.java
+│   │   │   │   │   │   │   │   └── BinarySearchTree.java
+│   │   │   │   │   │   │   └── util/            // Utility classes (if any)
+│   │   │   │   │   │   ├── algorithms/      // Algorithms
+│   │   │   │   │   │   │   ├── BubbleSort.java    
+│   │   │   │   │   │   │   ├── InsertionSort.java    
+│   │   │   │   │   │   │   ├── SelectionSort.java    
+│   │   │   │   │   │   │   └── QuickSort.java
+│   │   ├── resources/                           // Resources such as configuration files
 │   ├── test/
 │   │   ├── java/
 │   │   │   ├── com/
 │   │   │   │   ├── jethroau/
 │   │   │   │   │   ├── dsa/
-│   │   │   │   │   │   ├── collections/         // Collection interfaces tests
-│   │   │   │   │   │   │   ├── CollectionTest.java
-│   │   │   │   │   │   │   └── ListTest.java
-│   │   │   │   │   │   ├── lists/               // List implementations
-│   │   │   │   │   │   │   ├── ArrayList.java
-│   │   │   │   │   │   │   └── LinkedList.java
-│   │   │   │   │   │   ├── queues/              // Queue implementations
-│   │   │   │   │   │   │   └── LinkedQueue.java
-│   │   │   │   │   │   ├── stacks/              // Stack implementations
-│   │   │   │   │   │   │   └── LinkedStack.java
-│   │   │   │   │   │   ├── trees/               // Tree implementations
-│   │   │   │   │   │   │   ├── BinaryTree.java
-│   │   │   │   │   │   │   └── BinarySearchTree.java
+│   │   │   │   │   │   ├── datastructures/      // Data structure tests
+│   │   │   │   │   │   │   ├── collections/     // Collection interfaces tests
+│   │   │   │   │   │   │   │   ├── CollectionTest.java
+│   │   │   │   │   │   │   │   └── ListTest.java
+│   │   │   │   │   │   │   ├── lists/           // List implementations tests
+│   │   │   │   │   │   │   │   ├── ArrayListTest.java
+│   │   │   │   │   │   │   │   └── LinkedListTest.java
+│   │   │   │   │   │   │   ├── queues/          // Queue implementations tests
+│   │   │   │   │   │   │   │   └── LinkedQueueTest.java
+│   │   │   │   │   │   │   ├── stacks/          // Stack implementations tests
+│   │   │   │   │   │   │   │   └── LinkedStackTest.java
+│   │   │   │   │   │   │   ├── trees/           // Tree implementations tests
+│   │   │   │   │   │   │   │   ├── BinaryTreeTest.java
+│   │   │   │   │   │   │   │   └── BinarySearchTreeTest.java
+│   │   │   │   │   │   ├── algorithms/      // Algorithms tests
+│   │   │   │   │   │   │   ├── BubbleSortTest.java
+│   │   │   │   │   │   │   ├── InsertionSortTest.java
+│   │   │   │   │   │   │   ├── SelectionSortTest.java
+│   │   │   │   │   │   │   └── QuickSortTest.java
 │   │   │   │   │   │   └── util/                // Utility classes tests
-│   ├── └── resources/                           // Test resources
+│   ├── resources/                               // Test resources
+
 ```
 
 ## Implemented Abstract Data Structures
@@ -103,10 +116,15 @@ DataStructuresAlgorithms/
 - Linked Queue
 - Binary Tree
 - Binary Search Tree (BST)
+- More coming soon..
 
 ## Algorithms
 
-- Coming soon!! 
+- BubbleSort
+- InsertionSort
+- SelectionSort
+- QuickSort
+- More coming soon..
 
 ## How to Use
 
