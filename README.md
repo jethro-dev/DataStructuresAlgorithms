@@ -2,6 +2,10 @@
 
 This project provides custom implementations of fundamental data structures and collections in Java. The goal is to mimic the behavior and structure of the Java Collections Framework, providing a deeper understanding of how these data structures work under the hood.
 
+The aim of this project is to fully understand the most common data structures and algorithms. I believe that to be successful in Java, a clear understanding of the extensive Java Collections Framework is essential. This project will help leverage my expertise in Java by delving into the intricate details of these fundamental components. I try to keep
+
+This project is developed using Test-Driven Development (TDD) and is fully tested to ensure the correctness and reliability of the implementations. I strive to keep the code as optimized as possible, continuously improving as I learn better solutions.
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Project Structure](#project-structure)
@@ -38,10 +42,19 @@ DataStructuresAlgorithms/
 │   │   │   │   │   │   │   ├── SortedMap.java
 │   │   │   │   │   │   │   ├── NavigableMap.java
 │   │   │   │   │   │   │   └── Iterator.java
+│   │   │   │   │   │   │   └── Iterable.java
+│   │   │   │   │   │   │   └── Tree.java
+│   │   │   │   │   │   │   └── Comparable.java
 │   │   │   │   │   │   ├── lists/               // List implementations
 │   │   │   │   │   │   │   ├── ArrayList.java
 │   │   │   │   │   │   │   └── LinkedList.java
 │   │   │   │   │   │   ├── queues/              // Queue implementations
+│   │   │   │   │   │   │   └── LinkedQueue.java
+│   │   │   │   │   │   ├── stacks/              // Stack implementations
+│   │   │   │   │   │   │   └── LinkedStack.java
+│   │   │   │   │   │   ├── trees/               // Tree implementations
+│   │   │   │   │   │   │   ├── BinaryTree.java
+│   │   │   │   │   │   │   └── BinarySearchTree.java
 │   │   │   │   │   │   └── util/                // Utility classes (if any)
 │   │   ├── resources/                          // Resources such as configuration files
 │   ├── test/
@@ -52,15 +65,21 @@ DataStructuresAlgorithms/
 │   │   │   │   │   │   ├── collections/         // Collection interfaces tests
 │   │   │   │   │   │   │   ├── CollectionTest.java
 │   │   │   │   │   │   │   └── ListTest.java
-│   │   │   │   │   │   ├── lists/               // List implementations tests
-│   │   │   │   │   │   │   ├── ArrayListTest.java
-│   │   │   │   │   │   │   └── LinkedListTest.java
-│   │   │   │   │   │   ├── queues/              // Queue implementations tests
+│   │   │   │   │   │   ├── lists/               // List implementations
+│   │   │   │   │   │   │   ├── ArrayList.java
+│   │   │   │   │   │   │   └── LinkedList.java
+│   │   │   │   │   │   ├── queues/              // Queue implementations
+│   │   │   │   │   │   │   └── LinkedQueue.java
+│   │   │   │   │   │   ├── stacks/              // Stack implementations
+│   │   │   │   │   │   │   └── LinkedStack.java
+│   │   │   │   │   │   ├── trees/               // Tree implementations
+│   │   │   │   │   │   │   ├── BinaryTree.java
+│   │   │   │   │   │   │   └── BinarySearchTree.java
 │   │   │   │   │   │   └── util/                // Utility classes tests
 │   ├── └── resources/                           // Test resources
 ```
 
-## Implemented Interfaces
+## Implemented Abstract Data Structures
 
 - Collection
 - List
@@ -72,11 +91,22 @@ DataStructuresAlgorithms/
 - SortedMap
 - NavigableMap
 - Iterator
+- Iterable
+- Tree
+- Comparable
 
-## Implemented Classes
-- ArrayList
-- LinkedList
-- Coming soon...
+## Implemented Data Structures
+
+- Array List
+- Linked List
+- Linked Stack
+- Linked Queue
+- Binary Tree
+- Binary Search Tree (BST)
+
+## Algorithms
+
+- Coming soon!! 
 
 ## How to Use
 
