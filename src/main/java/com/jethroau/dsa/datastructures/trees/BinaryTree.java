@@ -71,6 +71,16 @@ public class BinaryTree<T extends Comparable<T>> implements Tree<T> {
         return searchRecursive(node.left, data) || searchRecursive(node.right, data);
     }
 
+    /**
+     * Deletes a node with the specified value from the binary tree.
+     *
+     * This method performs the deletion by finding the node with the specified value,
+     * replacing its value with the value of the deepest and rightmost node in the tree,
+     * and then deleting the deepest and rightmost node. This ensures that the tree
+     * remains complete after the deletion.
+     *
+     * @param data the value of the node to be deleted
+     */
     @Override
     public void delete(T data) {
         deleteNode(root, data);
