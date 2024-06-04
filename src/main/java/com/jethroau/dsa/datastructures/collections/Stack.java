@@ -1,4 +1,4 @@
-package com.jethroau.dsa.datastructures;
+package com.jethroau.dsa.datastructures.collections;
 
 public interface Stack<T> {
     void push(T element);

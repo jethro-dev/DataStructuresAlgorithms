@@ -6,10 +6,10 @@ package com.jethroau.dsa.datastructures.collections;
  * @param <T> the type of elements held in this collection
  */
 public interface Deque<T> extends Queue<T> {
-    void addFirst(T element);
-    void addLast(T element);
-    boolean offerFirst(T element);
-    boolean offerLast(T element);
+    void addFirst(T e);
+    void addLast(T e);
+    boolean offerFirst(T e);
+    boolean offerLast(T e);
     T removeFirst();
     T removeLast();
     T pollFirst();
@@ -20,4 +20,7 @@ public interface Deque<T> extends Queue<T> {
     T peekLast();
     boolean removeFirstOccurrence(Object o);
     boolean removeLastOccurrence(Object o);
+    void push(T e);
+    T pop();
+    Iterator<T> descendingIterator();
 }
