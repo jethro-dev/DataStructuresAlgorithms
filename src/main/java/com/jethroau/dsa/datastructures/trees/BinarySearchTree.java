@@ -95,17 +95,17 @@ public class BinarySearchTree<T extends Comparable<T>> implements Tree<T> {
     }
 
     @Override
-    public void inOrderTraversal() {
-
+    public String inOrderTraversal() {
+        return "";
     }
 
     @Override
-    public void preOrderTraversal() {
-
+    public String preOrderTraversal() {
+        return "";
     }
 
     @Override
-    public void postOrderTraversal() {
-
+    public String postOrderTraversal() {
+        return "";
     }
 }
